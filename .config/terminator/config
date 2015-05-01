@@ -1,0 +1,24 @@
+[global_config]
+  inactive_color_offset = 0.84
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#a08d7f:#5e4237:#957d65:#80635b:#c2a891:#d1bba6:#e8ba6d:#d7a44b:#7f362d:#af8652:#6b3800:#9c681f:#6f5b42:#8c4a3e:#edcf8f:#67221b"
+    background_image = None
+    background_darkness = 0.9
+    background_type = transparent
+    use_system_font = False
+    foreground_color = "#d1bba6"
+    show_titlebar = False
+    font = Monospace 12
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
