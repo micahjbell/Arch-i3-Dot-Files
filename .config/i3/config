@@ -57,6 +57,16 @@ mode $sysmenu {
     bindsym Escape    mode "default"
 }
 
+# Quick launch apps
+set $launch "Quick launch: Google [C]hrome, [T]hunar, [G]eany"
+bindsym $mod+Tab mode $launch
+
+mode $launch {
+    bindsym c 			exec google-chrome-stable ; mode "default"
+    bindsym t 			exec thunar ; mode "default"
+    bindsym g 			exec geany ; mode "default"
+    bindsym Escape 		mode "default"
+}
 
 
 # Window border style
