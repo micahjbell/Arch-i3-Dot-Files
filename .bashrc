@@ -7,7 +7,7 @@
 
 alias ls='ls --color=auto --group-directories-first'
 alias please='sudo `fc -n -l -1`'
-alias update='sudo pacman -Syu'
+alias pacupdate='sudo pacman -Syu'
 alias gimmie='sudo pacman -S'
 
 PS1='[\u@\h \W]\$ '
